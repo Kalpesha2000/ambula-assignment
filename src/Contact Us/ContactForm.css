@@ -1,0 +1,85 @@
+/* CSS for ContactForm */
+.ContactForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: black;
+}
+
+.container {
+  width: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contactForm {
+  margin-bottom: 20px;
+}
+
+.formRow {
+  margin-bottom: 15px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-feedback.success {
+  background-color: green;
+}
+
+/* Styling for ToastContainer */
+.Toastify__toast-container {
+  width: auto !important;
+  padding: 0;
+}
+
+.Toastify__toast {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.Toastify__toast--success {
+  background-color: #28a745;
+}
+
+.Toastify__toast-body {
+  padding: 10px;
+}
+
+.Toastify__toast-container--bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Additional CSS for centering container */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
